@@ -1,0 +1,6 @@
+const ROOT_PRELOADERMAIN = document.getElementById('preloaderMain')
+const ROOT_PRELOADER = document.getElementById('preloader')
+const ROOT_POSTERS = document.getElementById('posters')
+const ROOT_CATALOG = document.getElementById('catalog')
+const ROOT_HEADER = document.getElementById('header')
+const ROOT_FOOTER = document.getElementById('footer')

@@ -1,0 +1,23 @@
+#core{
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    transition: transform .5s;
+}
+
+#follower{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    opacity: .1;
+}
+
+#follower, #core{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    z-index: 3;
+    pointer-events: none;
+}

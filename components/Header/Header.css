@@ -1,0 +1,54 @@
+#headerPentagon {
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/Header.svg');
+    position: absolute;
+    left: calc(50% - 250px);
+    top: -400px;
+}
+
+#headerNav{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#headerNav *{
+    position: absolute;
+}
+
+.headerNavElement{
+    white-space: nowrap;
+}
+
+#merch{
+    bottom: 13%;
+    left: 40%;
+}
+
+#events{
+    transform: rotate(288deg);
+    bottom: 19%;
+    right: 25%;
+}
+
+#building{
+    transform: rotate(216deg);
+    top: 37%;
+    right: 20%;
+}
+
+#webPoster{
+    transform: rotate(144deg);
+    top: 17%;
+    left: 48%;
+}
+
+#game{
+    transform: rotate(72deg);
+    bottom: 44%;
+    left: 17%;
+}

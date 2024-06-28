@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'NT Somic';
+    src: url('../fonts/NTSomic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NT Somic';
+    src: url('../fonts/NTSomic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Furore';
+    src: url('../fonts/Furore.eot');
+    src: local('Furore'),
+        url('../fonts/Furore.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Furore.woff2') format('woff2'),
+        url('../fonts/Furore.woff') format('woff'),
+        url('../fonts/Furore.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
