@@ -1,0 +1,49 @@
+[
+    {
+        "id": "posterConference",
+        "title": "Конференция",
+        "subtitle": "Создатель KOLD об отеле",
+        "img": "./assets/PosterOneMain.svg",
+        "alt": "Conference"
+    },
+
+    {
+        "id": "posterFilm",
+        "title": "Кинопоказ",
+        "subtitle": "Кинопоказ фильма о Севереном сиянии",
+        "img": "./assets/PosterTwoMain.svg",
+        "alt": "Film"
+    },
+
+    {
+        "id": "posterFestival",
+        "title": "Фестиваль",
+        "subtitle": "Фестиваль «Полярная ночь»",
+        "img": "./assets/PosterThreeMain.svg",
+        "alt": "Festival"
+    },
+
+    {
+        "id": "posterExcursion",
+        "title": "Экскурсия",
+        "subtitle": "Наслаждаемся пейзажами Севера",
+        "img": "./assets/PosterFourMain.svg",
+        "alt": "Excursion"
+    },
+
+    {
+        "id": "posterLecture",
+        "title": "Лекция",
+        "subtitle": "Лекция о глобальном потеплении",
+        "img": "./assets/PosterFiveMain.svg",
+        "alt": "Lecture"
+    },
+
+    {
+        "id": "posterMasterClass",
+        "title": "Мастер-класс",
+        "subtitle": "Учимся творить из льда",
+        "img": "./assets/PosterSixMain.svg",
+        "alt": "MasterClass"
+    }
+]

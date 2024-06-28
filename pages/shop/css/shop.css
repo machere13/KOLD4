@@ -1,0 +1,84 @@
+#catalog{
+    width: 100%;
+    padding: var(--spacing-xl) 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(481px, 1fr));
+    place-items: center;
+    grid-row-gap: var(--spacing-l);
+}
+
+#book{
+    grid-column-start: 2;
+}
+
+.cardItem{
+    width: 400px;
+}
+
+.cardItemImageWrapper, .cardItemImageWrapper > a{
+    display: block;
+    width: 100%;
+    height: 428px;
+    position: relative;
+}
+
+.cardItemImage{
+    width: 70%;
+    height: 90%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    position: absolute;
+    z-index: 2;
+    transform: translateZ(40px)
+}
+
+#notebook .cardItemImage, #cubeRubick .cardItemImage, #book .cardItemImage{
+    width: 80%;
+}
+
+.cardItemImageWrapperA{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.glassCard{
+    width: 300px;
+    height: 428px;
+    background: var(--background-block);
+    border: 1px solid var(--border-color);
+    position: absolute;
+}
+
+.cardItemBlur{
+    width: 200px;
+    height: 200px;
+    background: var(--kold-blue);
+    filter: blur(100px);
+    position: absolute;
+    right: var(--spacing-l);
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    z-index: 1;
+}
+
+.cardItemImage > img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardItemInfo, .cardItemPrice{
+    margin-top: var(--spacing-m);
+}
+
+.cardItemInfoText{
+    margin-top: var(--spacing-s);
+}
+
+@media (max-width: 1440px) {
+    #book{
+        grid-column-start: 1;
+    }
+}

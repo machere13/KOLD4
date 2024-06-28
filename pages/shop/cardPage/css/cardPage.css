@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+    height: calc(100vh + 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#item{
+    width: 88%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 ;
+}
+
+.itemImage{
+    width: 40vw;
+}
+
+#doorHolder{
+    width: 22vw;
+}
+
+#soda{
+    width: 28vw;
+}
+
+#candies{
+    width: 30vw;
+}
+
+.itemImage img{
+    width: 100%;
+    height: 100%;
+}
+
+#itemBlur{
+    width: 25%;
+    height: 90%;
+    background: var(--kold-blue);
+    filter: blur(400px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    z-index: -1;
+    animation: blurRotation 2s infinite linear;
+}
+
+@keyframes blurRotation {
+    0%, 100%{
+        transform: scale(.9);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+#itemDetails{
+    width: 50%;
+}
+
+#itemTitle{
+    margin-bottom: var(--spacing-l);
+}
+
+#itemDescription{
+    max-width: 428px;
+    margin-bottom: var(--spacing-l);
+}
+
+#itemBuy{
+    display: flex;
+    align-items: center;
+}
+
+#itemPrice{
+    margin-right: var(--spacing-xxl);
+}
+
+#itemBuyButton > button{
+    padding: 0 var(--spacing-l);
+}

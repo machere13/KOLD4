@@ -1,0 +1,73 @@
+[
+    {
+      "id": "posterConference",
+      "title": "Конференция",
+      "subtitle": "Создатель KOLD об отеле",
+      "imgOne": "./assets/PosterOneOne.svg",
+      "altOne": "PosterConferenceOne",
+      "imgTwo": "./assets/PosterOneTwo.svg",
+      "altTwo": "PosterConferenceTwo",
+      "imgThree": "./assets/PosterOneThree.svg",
+      "altThree": "PosterConferenceThree"
+    },
+
+    {
+      "id": "posterFilm",
+      "title": "Кинопоказ",
+      "subtitle": "Кинопоказ фильма о Севереном сиянии",
+      "imgOne": "./assets/PosterTwoOne.svg",
+      "altOne": "PosterFilmOne",
+      "imgTwo": "./assets/PosterTwoTwo.svg",
+      "altTwo": "PosterFilmTwo",
+      "imgThree": "./assets/PosterTwoThree.svg",
+      "altThree": "PosterFilmThree"
+     },
+
+     {
+      "id": "posterFestival",
+      "title": "Фестиваль",
+      "subtitle": "Фестиваль «Полярная ночь»",
+      "imgOne": "./assets/PosterThreeOne.svg",
+      "altOne": "PosterFestivalOne",
+      "imgTwo": "./assets/PosterThreeTwo.svg",
+      "altTwo": "PosterFestivalTwo",
+      "imgThree": "./assets/PosterThreeThree.svg",
+      "altThree": "PosterFestivalThree"
+     },
+
+     {
+      "id": "posterExcursion",
+      "title": "Экскурсия",
+      "subtitle": "Наслаждаемся пейзажами Севера",
+      "imgOne": "./assets/PosterFourOne.svg",
+      "altOne": "PosterExcursionOne",
+      "imgTwo": "./assets/PosterFourTwo.svg",
+      "altTwo": "PosterExcursionTwo",
+      "imgThree": "./assets/PosterFourThree.svg",
+      "altThree": "PosterExcursionThree"
+     },
+
+     {
+      "id": "posterLecture",
+      "title": "Лекция",
+      "subtitle": "Лекция о глобальном потеплении",
+      "imgOne": "./assets/PosterFiveOne.svg",
+      "altOne": "PosterLectureOne",
+      "imgTwo": "./assets/PosterFiveTwo.svg",
+      "altTwo": "PosterLectureTwo",
+      "imgThree": "./assets/PosterFiveThree.svg",
+      "altThree": "PosterLectureThree"
+     },
+
+     {
+      "id": "posterMasterClass",
+      "title": "Мастер-класс",
+      "subtitle": "Учимся творить из льда",
+      "imgOne": "./assets/PosterSixOne.svg",
+      "altOne": "PosterMasterClassOne",
+      "imgTwo": "./assets/PosterSixTwo.svg",
+      "altTwo": "PosterMasterClassTwo",
+      "imgThree": "./assets/PosterSixThree.svg",
+      "altThree": "PosterMasterClassThree"
+     }
+]

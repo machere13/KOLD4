@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отель</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="./css/building.css">
+</head>
+<body>
+    <div id="core"></div>
+    <div id="follower"></div>
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+
+    <div id="header"></div>
+    <div id="main">
+        <div id="menuSquares">
+            <div id="toFirstFloor">
+                <a href="./firstFloor/firstFloor.html"><img src="./assets/square.svg"></a>
+            </div>
+            <div id="toSecondFloor">
+                <a href="./secondFloor/secondFloor.html"><img src="./assets/square.svg"></a>
+            </div>
+            <div id="toThirdFloor">
+                <a href="./thirdFloor/thirdFloor.html"><img src="./assets/square.svg"></a>
+            </div>
+        </div>
+        <div id="hotelBackground">
+            <img src="./assets/hotel.svg">
+        </div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="../../libraries/gsap/gsap.min.js"></script>
+    <script src="../../libraries/gsap/Draggable.min.js"></script>
+
+    <script src="../../javascripts/root.js"></script>
+
+    <script src="./javascripts/building.js" defer></script>
+
+    <script src="../../components/ScrollBar/ScrollBar.js"></script>
+    <link rel="stylesheet" href="../../components/ScrollBar/ScrollBar.css">
+    
+    <link rel="stylesheet" href="../../components/Cursor/Cursor.css">
+
+    <script src="../../components/Header/Header.js" defer></script>
+    <link rel="stylesheet" href="../../components/Header/Header.css">
+
+    <script src="../../components/Footer/Footer.js"></script>
+    <link rel="stylesheet" href="../../components/Footer/Footer.css">
+</body>
+</html>

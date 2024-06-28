@@ -1,0 +1,34 @@
+body{
+    align-items: flex-start;
+}
+
+body{
+    height: 100vh;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+#main > video{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    font-family: 'Furore';
+    font-size: 24px;
+}
+
+nav{
+    position: absolute;
+    bottom: 5vw;
+    left: 10vw;
+}
+
+nav > li{
+    margin-bottom: var(--spacing-s);
+}

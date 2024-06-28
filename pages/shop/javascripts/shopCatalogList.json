@@ -1,0 +1,78 @@
+[
+    {
+       "id": "candies",
+       "cardTitle": "Лёденцы",
+       "subtitle": "Леденцы для истинных ценителей льда",
+       "title": "Лёденцы",
+       "description": "Леденцы для истинных ценителей льда. Вкус арктических ягод и мяты",
+       "price": "150",
+       "img": "./assets/candies.svg",
+       "alt": "Candies"
+    },
+
+    {
+        "id": "doorHolder",
+        "cardTitle": "Табличка на дверь",
+        "subtitle": "Табличка «Не входить»",
+        "title": "Табличка на дверь",
+        "description": "Табличка «Не входить» поможет отгородиться от непрошенных гостей",
+        "price": "50",
+        "img": "./assets/doorholder.svg",
+        "alt": "Doorholder"
+     },
+
+     {
+        "id": "cubeRubick",
+        "cardTitle": "Кубик Рубика",
+        "subtitle": "Интересная игрушка от холодных дней",
+        "title": "Кубик Рубика",
+        "description": "Интересная игрушка от холодных дней",
+        "price": "100",
+        "img": "./assets/cubeRubick.png",
+        "alt": "Cube Rubick"
+     },
+
+     {
+        "id": "notebook",
+        "cardTitle": "Блокнот",
+        "subtitle": "Полезный блокнот для холодных идей",
+        "title": "Блокнот",
+        "description": "Полезный блокнот для холодных идей",
+        "price": "250",
+        "img": "./assets/notebook.svg",
+        "alt": "Notebook"
+     },
+
+     {
+        "id": "soda",
+        "cardTitle": "Газировка",
+        "subtitle": "Газировка со вкусом льда",
+        "title": "Газировка «Охладись»",
+        "description": "Газировка со вкусом льда охладит </br>в жаркую погоду",
+        "price": "100",
+        "img": "./assets/soda.svg",
+        "alt": "Soda"
+     },
+
+     {
+        "id": "soap",
+        "cardTitle": "Мыло",
+        "subtitle": "Мыло для охлаждения рук",
+        "title": "Мыло",
+        "description": "Мыло для охлаждения рук </br>с запахом Севера",
+        "price": "100",
+        "img": "./assets/soap.svg",
+        "alt": "Soap"
+     },
+
+     {
+        "id": "book",
+        "cardTitle": "Книга",
+        "subtitle": "Книга о пространстве",
+        "title": "Книга",
+        "description": "Книга о пространстве познакомит с отелем KOLD",
+        "price": "950",
+        "img": "./assets/book.svg",
+        "alt": "Book"
+     }
+]

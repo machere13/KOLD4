@@ -1,0 +1,49 @@
+#main{
+    display: grid;
+    width: 100vw;
+    padding: var(--spacing-m) 10vw;
+    grid-template-areas: "a a b c c c c"
+                         "a a g c c c c"
+                         "d d d d e e f"
+                         "d d d d e e h";
+    grid-gap: var(--spacing-m);
+}
+
+#main img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#tfImageOne{
+    grid-area: a;
+}
+
+#tfImageTwo{
+    grid-area: b;
+}
+
+#tfImageThree{
+    grid-area: c;
+}
+
+#tfImageFour{
+    grid-area: d;
+}
+
+#tfImageFive{
+    grid-area: e;
+}
+
+#tfImageSix{
+    grid-area: f;
+}
+
+#tfText{
+    grid-area: g;
+}
+
+#tfNoBlock{
+    grid-area: h;
+}

@@ -1,0 +1,67 @@
+body{
+    height: calc(100vh + 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formWrapper > div{
+    width: 400px;
+}
+
+input{
+    background: none;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+input:focus{
+    outline: 0;
+    border-bottom: 1px solid #fff;
+}
+
+#formWrapper{
+    background: var(--background-block);
+    border: 1px solid var(--border-color);
+    padding: var(--spacing-l);
+    width: fit-content;
+}
+
+#formInputEmail{
+    margin-top: var(--spacing-l);
+}
+
+#formBackground{
+    position: absolute;
+    width: 1500px;
+    left: calc(50vw - 750px);
+    top: 0;
+    pointer-events: none;
+}
+
+#formBackground > img{
+    width: 100%;
+    height: 100%
+}
+
+#formButton{
+    margin-top: var(--spacing-l);
+}
+
+@media (max-width: 1440px) {
+    #formWrapper > div{
+        width: 240px;
+    }
+}

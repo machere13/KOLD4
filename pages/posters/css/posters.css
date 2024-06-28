@@ -1,0 +1,44 @@
+#posters{
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-m);
+    padding: 100px;
+}
+
+.posterImage{
+    border: 1px solid var(--border-color);
+    width: 150px;
+    height: 675px;
+    transition: all .35s ease-out;
+}
+
+.poster:hover .posterImage{
+    width: 450px;
+}
+
+.posterImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.posterImage > a{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.poster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posterInfo{
+    margin-top: var(--spacing-m);
+    display: none;
+}
+
+.posterInfoText{
+    margin-top: var(--spacing-s);
+}

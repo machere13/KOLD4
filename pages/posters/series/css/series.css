@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#posterSeries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-xl) 0;
+}
+
+#posterImages{
+    display: flex;
+    gap: var(--spacing-m);
+}
+
+#posterImages > .posterInfo{
+    display: none;
+}
+
+.posterImage{
+    border: 1px solid var(--border-color);
+    width: 450px;
+    height: 675px;
+}
+
+.posterImage > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#centralPoster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posterInfo{
+    margin-top: var(--spacing-m);
+}
+
+.posterInfoText{
+    margin-top: var(--spacing-s);
+}
+
+@media (max-width: 1440px) {
+    #posterImages{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #posterImages > .posterInfo{
+        display: block;
+    }
+
+    #centralPoster > .posterInfo{
+        display: none;
+    }
+}
